@@ -50,7 +50,7 @@ By default (if custom config does not exist) read env variables from .env file.
 
 
 
-### How to change dev server PORT
+### How to change dev server port
 
 Add `PORT` env variable. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms.
 
