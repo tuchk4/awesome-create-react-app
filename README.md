@@ -66,7 +66,7 @@ If you use `.env` config - just add `PORT` variable:
 PORT=9001
 ```
 
-### How to setup root dir for require (webpack analog for module.resolveDirectory)?
+### How to setup root dir for require (webpack module.resolveDirectory analog)?
 
 Add `NODE_PATH` env variable. Directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official doc ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)
 
