@@ -86,7 +86,7 @@ NODE_PATH=src/scripts
 
 Create React App [doesn’t support decorator syntax](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#can-i-use-decorators) at the moment.
 
-There are PR [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357). If that PR will be merged then:
+There are PR [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357). If PR is merged then these featues will be available:
 
 - [Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators )
 - Features from [stage-0 preset](https://babeljs.io/docs/plugins/preset-stage-0/)
@@ -101,14 +101,14 @@ There are PR [Adding support for custom babel configuration #1357](https://githu
 > * [Imagine the horror of building / maintaining an app that relies on dead syntax features five years from now.](https://twitter.com/dan_abramov/status/818627079306694658)
 
 
-So we do not recomend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at Create React App.
+So we do not recommend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at Create React App.
 
 ### How to change webpack config?
 ### How to add custom webpack plugins?
 
 ```json
 "scripts": {
-  "start": "node scripts/webpack"
+  "build:custom": "node scripts/webpack"
 }
 ```
 
@@ -134,3 +134,5 @@ webpack(config).run(function(err, stats) {
   }
 });
 ```
+
+NOTE: There is just webpack config extending, not `react-scripts build`. There is not beautiful console logs, comparison of the build size and other `react-scitpts build` command features.
