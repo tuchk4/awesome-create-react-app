@@ -1,16 +1,44 @@
 # Awesome Create React App
 
-A collection of awesome things regarding CRA ecosystem.
+A collection of awesome things regarding Create React App ecosystem. 
+
+Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-react-app/issues/new) or make Pull Request.
 
 ## Create React App General Resources
 
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
-## Useful links
+## Resources
 
 * [Maintaining a fork of react-scripts as an alternative to ejecting](https://github.com/facebookincubator/create-react-app/issues/682)
+* [Surge VS GitHub Pages: How to deploy a create-react-app project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
 
+## Video tutorials
+
+* [Getting started with React with Create React App](https://www.youtube.com/watch?v=pCgDRgmfilE)
+* [Create React App - what's all the fuss about?](https://www.youtube.com/watch?v=wLgHjZM4pWM)
+* [Create React App with ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
+* [Migrate to Create React App](https://www.youtube.com/watch?v=g8O0FT0uoDA)
+
+
+## Articles
+
+* [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
+* [Learning React With Create-React-App (Part 2)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-2-3ad99f38b48d)
+* [Learning React With Create-React-App (Part 3)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-3-322447d14192)
+* [Learning React with Create-React-App (Part 4)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc)
+* [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+* [Adding Hot Module Reloading to Create React App](https://medium.com/@sheepsteak/adding-hot-module-reloading-to-create-react-app-e053fadf569d)
+* [Tweaking Configuration For React Scripts In Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
+* [How to Create ClojureScript App](https://medium.com/@roman01la/how-to-create-clojurescript-app-4e38778c4762)
+* [How to Create Elm App](https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a)
+* [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
+* [Getting Started with Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
+* [React / Create React App — But I don’t wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
+* ["Customizing" create-react-app](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
+* [Jumpstate + Redux + Create-React-App — No dispatching or action-creators required!](https://medium.com/@tannerlinsley/jumpstate-redux-create-react-app-no-dispatch-or-action-creators-required-374e18dbcfe1)
+* [Configure create-react-app without ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)
 
 ## Alternatives
 
