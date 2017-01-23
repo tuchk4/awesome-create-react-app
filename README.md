@@ -48,7 +48,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 ## FAQ
 
-### How to use env variables
+### How to use env config
 
 * [Adding Custom Environment Variables](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
 
@@ -69,7 +69,7 @@ Right now it is possible by changing `npm scripts`:
 }
 ```
 
-There is the feature request with [PR](https://github.com/facebookincubator/create-react-app/pull/1344) - [Different env config](https://github.com/facebookincubator/create-react-app/issues/1343)
+There is the feature request with [PR](https://github.com/facebookincubator/create-react-app/pull/1344) - [Support different env configs](https://github.com/facebookincubator/create-react-app/issues/1343)
 
 Read different `.env` configs according to current command (start / test / build).
 
@@ -77,8 +77,6 @@ Read different `.env` configs according to current command (start / test / build
 * Read `prod.env` when npm run build
 
 By default (if custom config does not exist) read env variables from .env file.
-
-
 
 ### How to change dev server port
 
