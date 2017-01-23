@@ -55,6 +55,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 > Your project can consume variables declared in your environment as if they were declared locally in your JS files. By default you will have NODE_ENV defined for you, and any other environment variables starting with REACT_APP_. These environment variables will be defined for you on process.env. For example, having an environment variable named REACT_APP_SECRET_CODE will be exposed in your JS as process.env.REACT_APP_SECRET_CODE, in addition to process.env.NODE_ENV
 
 * [Adding Development Environment Variables In `.env`](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env)
+
 > To define permanent environment variables, create a file called .env in the root of your project
 
 ### How to use multiple env configs
