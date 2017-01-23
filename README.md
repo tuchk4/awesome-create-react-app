@@ -21,6 +21,10 @@ Feel free to post your feedback and [General Feedback Thread](https://github.com
 * [(closed) A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
 * [(closed) Proposal: 'configurator' field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
 
+## Tools
+
+* [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
+
 ## Articles
 
 * [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
