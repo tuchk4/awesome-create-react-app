@@ -83,9 +83,9 @@ NODE_PATH=src/scripts
 
 ### How to use custom babel presets
 
-It is not possible unitl [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357)
+Create React App [doesn’t support decorator syntax](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#can-i-use-decorators) at the moment.
 
-If that PR will be merged then:
+There are PR [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357). If that PR will be merged then:
 
 - [Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators )
 - Features from [stage-0 preset](https://babeljs.io/docs/plugins/preset-stage-0/)
