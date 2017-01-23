@@ -13,14 +13,13 @@ Feel free to post your feedback and [General Feedback Thread](https://github.com
 
 ## Most discussed / interested issues
 
-* [(closed) Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
-* [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
-* [(closed) Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
+* [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
+* [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
+* [(closed) Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
+* [(closed) Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
 * [(closed) A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
 * [(closed) Proposal: 'configurator' field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
-* [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
-
 
 ## Articles
 
@@ -181,3 +180,6 @@ webpack(config).run(function(err, stats) {
 ```
 
 NOTE: There is just webpack config extending, not `react-scripts build`. There is not beautiful console logs, comparison of the build size and other `react-scitpts build` command features.
+
+Such approach (workaround) also helps to resolve problems when need to build/pubish a single component. There is the related issue - [How to publish components without ejecting #796](https://github.com/facebookincubator/create-react-app/issues/796). Just override webpack entry point and output.
+
