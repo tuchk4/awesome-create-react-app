@@ -51,7 +51,7 @@ Feel free to post your feedback and [General Feedback Thread](https://github.com
 * [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
 * [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
 * [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
-* [How you can use react-toolbox with create-react-app](https://twitter.com/javivelasco/status/810763888690163712)
+* [How you can use react-toolbox with create-react-app](https://github.com/react-toolbox/react-toolbox-themr)
 
 ## Video tutorials
 
