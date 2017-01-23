@@ -22,6 +22,7 @@ A collection of awesome things regarding CRA ecosystem.
 ### How to use env variables
 
 * [Adding Custom Environment Variables](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
+
 > Your project can consume variables declared in your environment as if they were declared locally in your JS files. By default you will have NODE_ENV defined for you, and any other environment variables starting with REACT_APP_. These environment variables will be defined for you on process.env. For example, having an environment variable named REACT_APP_SECRET_CODE will be exposed in your JS as process.env.REACT_APP_SECRET_CODE, in addition to process.env.NODE_ENV
 
 * [Adding Development Environment Variables In `.env`](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env)
@@ -47,7 +48,7 @@ Read different `.env` configs according to current command (start / test / build
 
 By default (if custom config does not exist) read env variables from .env file.
 
-https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env
+
 
 ### How to change dev server PORT
 
@@ -100,7 +101,7 @@ There are PR [Adding support for custom babel configuration #1357](https://githu
 > * [Imagine the horror of building / maintaining an app that relies on dead syntax features five years from now.](https://twitter.com/dan_abramov/status/818627079306694658)
 
 
-So we do not recomend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at create-react-app.
+So we do not recomend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at Create React App.
 
 ### How to change webpack config?
 ### How to add custom webpack plugins?
