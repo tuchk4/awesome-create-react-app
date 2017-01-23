@@ -9,6 +9,19 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
+Feel free to post your feedback and [General Feedback Thread](https://github.com/facebookincubator/create-react-app/issues/11).
+
+## Most discussed / interested issues
+
+* [(closed) Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
+* [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
+* [(closed) Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
+* [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
+* [(closed) A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
+* [(closed) Proposal: 'configurator' field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
+* [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
+
+
 ## Articles
 
 * [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
@@ -32,6 +45,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [Netlify: Deploy React Apps in less than 30 Seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
 * [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
 * [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
+* [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
 
 ## Video tutorials
 
@@ -96,7 +110,9 @@ PORT=9001
 
 ### How to setup root dir for require (webpack module.resolveDirectory analog)?
 
-Add `NODE_PATH` env variable. Directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official doc ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)
+From officail documentation create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
+
+Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official doc ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)
 
 ```json
 "scripts": {
@@ -109,6 +125,7 @@ If you use `.env` config - just add `NODE_PATH` variable:
 ```
 NODE_PATH=src/scripts
 ```
+
 
 ### How to use custom babel presets
 
