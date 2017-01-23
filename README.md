@@ -50,6 +50,7 @@ Feel free to post your feedback and [General Feedback Thread](https://github.com
 * [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
 * [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
 * [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
+* [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
 
 ## Video tutorials
 
@@ -57,7 +58,6 @@ Feel free to post your feedback and [General Feedback Thread](https://github.com
 * [Create React App - what's all the fuss about?](https://www.youtube.com/watch?v=wLgHjZM4pWM)
 * [Create React App with ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
 * [Migrate to Create React App](https://www.youtube.com/watch?v=g8O0FT0uoDA)
-
 
 ## Alternatives
 
