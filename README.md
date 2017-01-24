@@ -133,7 +133,7 @@ NODE_PATH=src/scripts
 
 Create React App [doesn’t support decorator syntax](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#can-i-use-decorators) at the moment.
 
-There are PR [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357). If PR is merged then these featues will be available:
+There are PR [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357). If PR is merged then these features will be available:
 
 - [Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators )
 - Features from [stage-0 preset](https://babeljs.io/docs/plugins/preset-stage-0/)
