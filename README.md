@@ -63,6 +63,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 * [React app rewired](https://github.com/timarney/react-app-rewired)
 * [Custom react scripts](https://www.npmjs.com/package/custom-react-scripts)
+* [react-super-scripts](https://github.com/shrynx/react-super-scripts)
 
 ## FAQ
 
