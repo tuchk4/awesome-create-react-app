@@ -182,7 +182,9 @@ webpack(config).run(function(err, stats) {
 });
 ```
 
-NOTE: There is just webpack config extending, not `react-scripts build`. There is not beautiful console logs, comparison of the build size and other `react-scitpts build` command features.
+**Note: this is officially unsupported and can break in any version.**
+
+Also note that this is just webpack config extending, not `react-scripts build`. There is not beautiful console logs, comparison of the build size and other `react-scitpts build` command features.
 
 Such approach (workaround) also helps to resolve problems when need to build/pubish a single component. There is the related issue - [How to publish components without ejecting #796](https://github.com/facebookincubator/create-react-app/issues/796). Just override webpack entry point and output.
 
