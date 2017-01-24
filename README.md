@@ -25,6 +25,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 ## Articles
 
+* [Why I Love Create React App](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3#)
 * [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
 * [Learning React With Create-React-App (Part 2)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-2-3ad99f38b48d)
 * [Learning React With Create-React-App (Part 3)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-3-322447d14192)
