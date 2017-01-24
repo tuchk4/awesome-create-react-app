@@ -185,3 +185,4 @@ NOTE: There is just webpack config extending, not `react-scripts build`. There i
 
 Such approach (workaround) also helps to resolve problems when need to build/pubish a single component. There is the related issue - [How to publish components without ejecting #796](https://github.com/facebookincubator/create-react-app/issues/796). Just override webpack entry point and output.
 
+Always remember that using not usual loaders (like yaml, markdown, dsv loaders etc.), additional plugins and features from drafts and proposals makes your application more complex, maybe with dead syntax features and it is become impossible to migrate from current webpack configuration.
