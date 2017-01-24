@@ -2,14 +2,12 @@
 
 A collection of awesome things regarding Create React App ecosystem. 
 
-Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-react-app/issues/new) or make Pull Request.
+Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-react-app/issues/new) or suggest articles, videos and other useful resources via Pull Requests.
 
 ## Create React App General Resources
 
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
-
-Feel free to post your feedback and [General Feedback Thread](https://github.com/facebookincubator/create-react-app/issues/11).
 
 ## Most discussed / interested issues
 
@@ -79,7 +77,7 @@ Feel free to post your feedback and [General Feedback Thread](https://github.com
 
 ### How to use multiple env configs
 
-Right now it is possible by changing `npm scripts`:
+Right now it is possible installing [dotenv](https://github.com/motdotla/dotenv) and updating npm scripts:
 
 ```json
 "scripts": {
@@ -88,10 +86,9 @@ Right now it is possible by changing `npm scripts`:
 }
 ```
 
-There is the feature request with [PR](https://github.com/facebookincubator/create-react-app/pull/1344) - [Support different env configs](https://github.com/facebookincubator/create-react-app/issues/1343)
+There is the feature request with implemented [Pull Request](https://github.com/facebookincubator/create-react-app/pull/1344) - [Support different env configs](https://github.com/facebookincubator/create-react-app/issues/1343):
 
 Read different `.env` configs according to current command (start / test / build).
-
 * Read `dev.env` when npm start and npm test
 * Read `prod.env` when npm run build
 
@@ -115,9 +112,9 @@ PORT=9001
 
 ### How to setup root dir for require (webpack module.resolveDirectory analog)?
 
-From officail documentation create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
+Official solution: create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
 
-Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official doc ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)
+Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official documentation ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)
 
 ```json
 "scripts": {
@@ -130,7 +127,6 @@ If you use `.env` config - just add `NODE_PATH` variable:
 ```
 NODE_PATH=src/scripts
 ```
-
 
 ### How to use custom babel presets
 
