@@ -52,6 +52,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
 * [How you can use react-toolbox with create-react-app](https://github.com/react-toolbox/react-toolbox-themr)
 * [How to use antd with create-react-app](https://ant.design/docs/react/use-with-create-react-app)
+* [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
 
 ## Video tutorials
 
