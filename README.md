@@ -111,8 +111,8 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 
 **NOTE: this feature is done but not yet released**
 
-* Pull Request with implementation - [Configure which browser to open in npm start #1148](https://github.com/facebookincubator/create-react-app/pull/1148/files)
-* Real code that maybe released - [react-dev-utils/openBrowser.js](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-dev-utils/openBrowser.js)
+* First Pull Request with implementation - [Configure which browser to open in npm start #1148](https://github.com/facebookincubator/create-react-app/pull/1148)
+* Real code that maybe released - [react-dev-utils/openBrowser.js](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-dev-utils/openBrowser.js#L20)
 
 Add `BROWSER` env variable. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms.
 
