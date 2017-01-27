@@ -72,8 +72,9 @@ Closed:
 * [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
 * [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
 * [How you can use react-toolbox with create-react-app](https://github.com/react-toolbox/react-toolbox-themr)
-* [How to use antd with create-react-app](https://ant.design/docs/react/use-with-create-react-app)
+* [How to use ant design with create-react-app](https://ant.design/docs/react/use-with-create-react-app)
 * [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
+* [Tip: Create React App and SASS](https://medium.com/@dan_abramov/well-to-be-perfectly-clear-you-can-just-outside-of-create-react-app-setup-6e44f91cc086)
 
 ## Video tutorials
 
@@ -86,7 +87,13 @@ Closed:
 
 * [React app rewired](https://github.com/timarney/react-app-rewired)
 * [Custom react scripts](https://www.npmjs.com/package/custom-react-scripts)
+
+## React scripts versions
+
+This is not documented yet. More info at [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
+
 * [React super scripts](https://github.com/shrynx/react-super-scripts)
+* [React scripts (isomorphic)](https://github.com/firstlookmedia/react-scripts)
 
 ## FAQ
 
