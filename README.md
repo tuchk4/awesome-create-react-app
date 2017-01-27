@@ -1,23 +1,42 @@
-# Awesome Create React App
+# Awesome Create React App [![Build Status](https://travis-ci.org/tuchk4/awesome-create-react-app.svg?branch=master)](https://travis-ci.org/tuchk4/awesome-create-react-app)
 
-A collection of awesome things regarding Create React App ecosystem. 
+A collection of awesome things regarding Create React App ecosystem.
 
 Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-react-app/issues/new) or suggest articles, videos and other useful resources via Pull Requests.
+
+* <img src="http://i.imgur.com/ULoeOL4.png" height="16"/> [Why I love Create React App and don't want to eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
 
 ## Create React App General Resources
 
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
+
+## Actual Pull Requests
+
+* [Add BuildProgressPlugin #1011](https://github.com/facebookincubator/create-react-app/pull/1011)
+* [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
+* [Make all vars accessiable in index.html #1440](https://github.com/facebookincubator/create-react-app/pull/1440)
+* [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357)
+* [Feature/different env config files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
+* [Fix workflow if react-scripts package is linked via npm-link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
+* [Allow to configure any options of babel-preset-env #1415](https://github.com/facebookincubator/create-react-app/pull/1415)
+* [Create git repository with initial commit #1288](https://github.com/facebookincubator/create-react-app/pull/1288)
+* [Export render function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
+* [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
+
+
+
 ## Most discussed / interested issues
 
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
 * [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
-* [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
+* [Maintaining a fork of react-scripts as an alternative to ejecting](https://github.com/facebookincubator/create-react-app/issues/682)
+
 * [(closed) Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
 * [(closed) Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
 * [(closed) A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
-* [(closed) Proposal: 'configurator' field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
+* [(closed) Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
 
 ## Tools
 
@@ -25,7 +44,6 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 ## Articles
 
-* [Why I Love Create React App](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3#)
 * [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
 * [Learning React With Create-React-App (Part 2)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-2-3ad99f38b48d)
 * [Learning React With Create-React-App (Part 3)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-3-322447d14192)
@@ -37,7 +55,6 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
 * [Adding Hot Module Reloading to Create React App](https://medium.com/@sheepsteak/adding-hot-module-reloading-to-create-react-app-e053fadf569d)
 * [Tweaking Configuration For React Scripts In Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
-* [Maintaining a fork of react-scripts as an alternative to ejecting](https://github.com/facebookincubator/create-react-app/issues/682)
 * [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
 * [Getting Started with Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
 * [React / Create React App — But I don’t wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
