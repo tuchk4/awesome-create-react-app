@@ -92,10 +92,6 @@ Closed:
 * [Create React App with ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
 * [Migrate to Create React App](https://www.youtube.com/watch?v=g8O0FT0uoDA)
 
-## Alternatives
-
-* [React App Rewired](https://github.com/timarney/react-app-rewired)
-* [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts)
 
 ## React scripts versions
 
@@ -104,6 +100,33 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 * [React Super Scripts](https://github.com/shrynx/react-super-scripts)
 * [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts)
 * [Create React App Sass](https://github.com/rickharrison/create-react-app-sass)
+
+
+## Alternatives
+
+* [React App Rewired](https://github.com/timarney/react-app-rewired)
+* [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts)
+
+Alternatives from [Create React App README](https://github.com/facebookincubator/create-react-app#alternatives):
+
+* [insin/nwb](https://github.com/insin/nwb)
+* [mozilla/neo](https://github.com/mozilla/neo)
+* [NYTimes/kyt](https://github.com/NYTimes/kyt)
+* [zeit/next.js](https://github.com/zeit/next.js)
+* [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+
+Notable alternatives also include:
+
+* [enclave](https://github.com/eanplatter/enclave)
+* [motion](https://github.com/motion/motion)
+* [quik](https://github.com/satya164/quik)
+* [sagui](https://github.com/saguijs/sagui)
+* [roc](https://github.com/rocjs/roc)
+* [aik](https://github.com/d4rkr00t/aik)
+* [react-app](https://github.com/kriasoft/react-app)
+* [dev-toolkit](https://github.com/stoikerty/dev-toolkit)
+* [tarec](https://github.com/geowarin/tarec)
+
 
 ## FAQ
 
