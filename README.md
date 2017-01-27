@@ -26,17 +26,21 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
 
 
-
 ## Most discussed / interested issues
 
+Open:
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
 * [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
-* [Maintaining a fork of react-scripts as an alternative to ejecting](https://github.com/facebookincubator/create-react-app/issues/682)
+* [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
+* [Make it possible to disable Live reloading #1428](https://github.com/facebookincubator/create-react-app/issues/1428)
+* [How to start https server with SSL cert? #1411](https://github.com/facebookincubator/create-react-app/issues/1411)
+* [Customize build folder #1354](https://github.com/facebookincubator/create-react-app/issues/1354)
 
-* [(closed) Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
-* [(closed) Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
-* [(closed) A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
-* [(closed) Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
+Closed:
+* [Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
+* [Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
+* [A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
+* [Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
 
 ## Tools
 
@@ -190,6 +194,17 @@ There are PR [Adding support for custom babel configuration #1357](https://githu
 
 
 So we do not recommend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at Create React App.
+
+### How to change webpack entry point and output dir?
+
+There is the issue - [Customize build folder #1354](https://github.com/facebookincubator/create-react-app/issues/1354).
+This is feature is very useful along with entry point customizing and I have left  [comment](https://github.com/facebookincubator/create-react-app/issues/1354#issuecomment-275647959) about this.
+
+But according to this Pull Request [Fix- react-scripts build doesn't allow for specified path #1362](https://github.com/facebookincubator/create-react-app/pull/1362#issuecomment-271284738) we should not expect such customizations in near future.
+
+> won’t be introducing more configuration on a case-by-case basis. We might add support for a configuration file at some point, but not now.
+
+There are some hacks how to change webpack config but note that it is officially unsupported and can break in any version.
 
 ### How to change webpack config?
 ### How to add custom webpack plugins?
