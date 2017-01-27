@@ -4,7 +4,7 @@ A collection of awesome things regarding Create React App ecosystem.
 
 Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-react-app/issues/new) or suggest articles, videos and other useful resources via Pull Requests.
 
-* <img src="http://i.imgur.com/ULoeOL4.png" height="16"/> [Why I love Create React App and don't want to eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
+<img src="http://i.imgur.com/ULoeOL4.png" height="16"/> [Why I love Create React App and don't want to eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
 
 ## Create React App General Resources
 
@@ -41,10 +41,19 @@ Closed:
 * [Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
 * [A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
 * [Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
+* [Less/Sass #351](https://github.com/facebookincubator/create-react-app/issues/351)
 
 ## Tools
 
 * [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
+
+## Deployment
+
+* [Surge VS GitHub Pages: How to deploy a create-react-app project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
+* [How to deploy a create-react-app (nginx)](https://www.peterbe.com/plog/how-to-deploy-a-create-react-app)
+* [Netlify: Deploy React Apps in less than 30 Seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+* [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
+* [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
 
 ## Articles
 
@@ -52,29 +61,29 @@ Closed:
 * [Learning React With Create-React-App (Part 2)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-2-3ad99f38b48d)
 * [Learning React With Create-React-App (Part 3)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-3-322447d14192)
 * [Learning React With Create-React-App (Part 4)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc)
-* [Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
 * [How to Create ClojureScript App](https://medium.com/@roman01la/how-to-create-clojurescript-app-4e38778c4762)
 * [How to Create Elm App](https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a)
-* [Surge VS GitHub Pages: How to deploy a create-react-app project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
 * [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+* [Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
 * [Adding Hot Module Reloading to Create React App](https://medium.com/@sheepsteak/adding-hot-module-reloading-to-create-react-app-e053fadf569d)
-* [Tweaking Configuration For React Scripts In Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
-* [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
-* [Getting Started with Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
-* [React / Create React App — But I don’t wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
-* ["Customizing" create-react-app](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
-* [Jumpstate + Redux + Create-React-App — No dispatching or action-creators required!](https://medium.com/@tannerlinsley/jumpstate-redux-create-react-app-no-dispatch-or-action-creators-required-374e18dbcfe1)
-* [Configure create-react-app without ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)
-* [How to deploy a create-react-app (nginx)](https://www.peterbe.com/plog/how-to-deploy-a-create-react-app)
-* [Netlify: Deploy React Apps in less than 30 Seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
-* [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
-* [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
-* [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
-* [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
 * [How you can use react-toolbox with create-react-app](https://github.com/react-toolbox/react-toolbox-themr)
 * [How to use ant design with create-react-app](https://ant.design/docs/react/use-with-create-react-app)
-* [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
+* [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
 * [Tip: Create React App and SASS](https://medium.com/@dan_abramov/well-to-be-perfectly-clear-you-can-just-outside-of-create-react-app-setup-6e44f91cc086)
+* [React / Create React App — But I don’t wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
+* [Jumpstate + Redux + Create-React-App — No dispatching or action-creators required!](https://medium.com/@tannerlinsley/jumpstate-redux-create-react-app-no-dispatch-or-action-creators-required-374e18dbcfe1)
+* [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
+* [Getting Started with Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
+* [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
+* [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
+
+
+## Tweaking Configuration (workarounds)
+
+* [Tweaking Configuration For React Scripts In Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
+* [Customizing create-react-app](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
+* [Configure create-react-app without ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)
+
 
 ## Video tutorials
 
@@ -85,15 +94,16 @@ Closed:
 
 ## Alternatives
 
-* [React app rewired](https://github.com/timarney/react-app-rewired)
-* [Custom react scripts](https://www.npmjs.com/package/custom-react-scripts)
+* [React App Rewired](https://github.com/timarney/react-app-rewired)
+* [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts)
 
 ## React scripts versions
 
 This is not documented yet. More info at [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
-* [React super scripts](https://github.com/shrynx/react-super-scripts)
-* [React scripts (isomorphic)](https://github.com/firstlookmedia/react-scripts)
+* [React Super Scripts](https://github.com/shrynx/react-super-scripts)
+* [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts)
+* [Create React App Sass](https://github.com/rickharrison/create-react-app-sass)
 
 ## FAQ
 
