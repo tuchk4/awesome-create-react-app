@@ -64,6 +64,7 @@ Closed:
 * [How to Create ClojureScript App](https://medium.com/@roman01la/how-to-create-clojurescript-app-4e38778c4762)
 * [How to Create Elm App](https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a)
 * [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+* [How to get "create-react-app" to work with your Rails API](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
 * [Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
 * [Adding Hot Module Reloading to Create React App](https://medium.com/@sheepsteak/adding-hot-module-reloading-to-create-react-app-e053fadf569d)
 * [How you can use react-toolbox with create-react-app](https://github.com/react-toolbox/react-toolbox-themr)
@@ -76,7 +77,7 @@ Closed:
 * [Getting Started with Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
 * [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
 * [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
-
+* [Create React App vs other starter projects](http://andrewhfarmer.com/create-react-app/)
 
 ## Tweaking Configuration (workarounds)
 
