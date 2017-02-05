@@ -55,6 +55,7 @@ Closed:
 * [Netlify: Deploy React Apps in less than 30 Seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
 * [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
 * [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
+* [Create React App Buildpack](https://github.com/mars/create-react-app-buildpack)
 
 ## Articles
 
