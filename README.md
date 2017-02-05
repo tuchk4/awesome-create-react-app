@@ -56,6 +56,7 @@ Closed:
 * [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
 * [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
 * [Create React App Buildpack](https://github.com/mars/create-react-app-buildpack)
+* [Creare React App - now.sh](https://github.com/xkawi/create-react-app-now)
 
 ## Articles
 
