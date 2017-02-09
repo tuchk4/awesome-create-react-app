@@ -29,6 +29,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 ## Most discussed / interested issues
 
 Open:
+* [Sharing components between apps, "create-react-component"](https://github.com/facebookincubator/create-react-app/issues/1492)
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
 * [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
 * [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
