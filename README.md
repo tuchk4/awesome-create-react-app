@@ -102,35 +102,35 @@ Closed:
 
 This is not documented yet. More info at [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
-* [React Super Scripts](https://github.com/shrynx/react-super-scripts)
-* [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts)
-* [Create React App Sass](https://github.com/rickharrison/create-react-app-sass)
-
+* [React Super Scripts](https://github.com/shrynx/react-super-scripts) - Adds super powers to create-react-app and allows custom configs without ejecting
+* [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts) - Provides configuration for FLM's isomorphic React apps
+* [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass
+* [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
 
 ## Alternatives
 
-* [React App Rewired](https://github.com/timarney/react-app-rewired)
-* [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts)
+* [React App Rewired](https://github.com/timarney/react-app-rewired) - Configure the unconfigurable, override create-react-app webpack configs.
+
 
 Alternatives from [Create React App README](https://github.com/facebookincubator/create-react-app#alternatives):
 
-* [insin/nwb](https://github.com/insin/nwb)
-* [mozilla/neo](https://github.com/mozilla/neo)
-* [NYTimes/kyt](https://github.com/NYTimes/kyt)
-* [zeit/next.js](https://github.com/zeit/next.js)
-* [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby)
+* [insin/nwb](https://github.com/insin/nwb) - A toolkit for React, Preact & Inferno apps, React libraries and other npm modules for the web, with no configuration (until you need it)
+* [mozilla/neo](https://github.com/mozilla/neo) - Create and build React web applications with zero initial configuration and minimal fuss
+* [NYTimes/kyt](https://github.com/NYTimes/kyt) - Drowning in Webpack configs? Try this build, test and development tool for advanced JavaScript apps
+* [zeit/next.js](https://github.com/zeit/next.js) - Framework for server-rendered React apps
+* [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) - Transform plain text into dynamic blogs and websites using React.js
 
 Notable alternatives also include:
 
-* [enclave](https://github.com/eanplatter/enclave)
-* [motion](https://github.com/motion/motion)
-* [quik](https://github.com/satya164/quik)
-* [sagui](https://github.com/saguijs/sagui)
-* [roc](https://github.com/rocjs/roc)
-* [aik](https://github.com/d4rkr00t/aik)
-* [react-app](https://github.com/kriasoft/react-app)
-* [dev-toolkit](https://github.com/stoikerty/dev-toolkit)
-* [tarec](https://github.com/geowarin/tarec)
+* [enclave](https://github.com/eanplatter/enclave) - A simpler way to compile React applications
+* [motion](https://github.com/motion/motion) - A simple CLI for running React projects
+* [quik](https://github.com/satya164/quik)- A quick way to prototype and build apps with React and Babel with zero-setup
+* [sagui](https://github.com/saguijs/sagui) - Front-end tooling in a single dependency
+* [roc](https://github.com/rocjs/roc)- Modern JavaScript Development Ecosystem
+* [aik](https://github.com/d4rkr00t/aik)- Frontend Playground
+* [react-app](https://github.com/kriasoft/react-app) - CLI tools and templates for authoring React applications with a single dev dependency and no configurations
+* [dev-toolkit](https://github.com/stoikerty/dev-toolkit) - Development Toolkit for React Veterans
+* [tarec](https://github.com/geowarin/tarec) - The Awesome React Cli
 
 
 ## FAQ
