@@ -100,6 +100,7 @@ Closed:
 * [Create React App - what's all the fuss about?](https://www.youtube.com/watch?v=wLgHjZM4pWM)
 * [Create React App with ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
 * [Migrate to Create React App](https://www.youtube.com/watch?v=g8O0FT0uoDA)
+* [Start Using React to Build Web Applications](https://egghead.io/courses/react-fundamentals)
 
 
 ## React scripts versions
