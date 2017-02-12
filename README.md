@@ -187,6 +187,13 @@ If you use `.env` config - just add `BROWSER` variable:
 BROWSER=none
 ```
 
+### Lazy loading (chunking)
+
+Original issue - [Lazy load (chunking) feature? #925](https://github.com/facebookincubator/create-react-app/issues/925)
+
+> You can use require.ensure() because we use webpack under the hood.
+When we switch to webpack 2, you can use System.import instead.
+
 ### How to setup root dir for require (webpack module.resolveDirectory analog)?
 
 Official solution: create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
