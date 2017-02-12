@@ -34,11 +34,10 @@ Open:
 * [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
 Closed:
-* [Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
+* [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
 * [A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
 * [Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
 * [Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
-* [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
 
 ## Tools
 
