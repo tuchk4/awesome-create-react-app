@@ -20,14 +20,10 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 * [Add BuildProgressPlugin #1011](https://github.com/facebookincubator/create-react-app/pull/1011)
 * [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
-* [Make all vars accessiable in index.html #1440](https://github.com/facebookincubator/create-react-app/pull/1440)
-* [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357)
 * [Feature/different env config files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
 * [Fix workflow if react-scripts package is linked via npm-link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
-* [Allow to configure any options of babel-preset-env #1415](https://github.com/facebookincubator/create-react-app/pull/1415)
 * [Create git repository with initial commit #1288](https://github.com/facebookincubator/create-react-app/pull/1288)
 * [Export render function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
-* [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
 
 
 ## Most discussed / interested issues
@@ -35,18 +31,14 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 Open:
 * [Sharing components between apps, "create-react-component"](https://github.com/facebookincubator/create-react-app/issues/1492)
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
-* [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
 * [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
-* [Make it possible to disable Live reloading #1428](https://github.com/facebookincubator/create-react-app/issues/1428)
-* [How to start https server with SSL cert? #1411](https://github.com/facebookincubator/create-react-app/issues/1411)
-* [Customize build folder #1354](https://github.com/facebookincubator/create-react-app/issues/1354)
 
 Closed:
 * [Optional Sass Support #78](https://github.com/facebookincubator/create-react-app/issues/78)
-* [Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
 * [A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
 * [Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
-* [Less/Sass #351](https://github.com/facebookincubator/create-react-app/issues/351)
+* [Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
+* [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
 
 ## Tools
 
