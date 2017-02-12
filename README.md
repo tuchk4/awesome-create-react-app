@@ -140,27 +140,6 @@ Notable alternatives also include:
 
 ## FAQ
 
-### How to open specific browser on npm-start?
-
-**NOTE: this feature is done but not yet released**
-
-* First Pull Request with implementation - [Configure which browser to open in npm start #1148](https://github.com/facebookincubator/create-react-app/pull/1148)
-* Real code that maybe released - [react-dev-utils/openBrowser.js](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-dev-utils/openBrowser.js#L20)
-
-Add `BROWSER` env variable. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms.
-
-```json
-"scripts": {
-  "start": "cross-env BROWSER=firefox react-scripts start"
-}
-```
-
-If you use `.env` config - just add `BROWSER` variable:
-
-```
-BROWSER=firefox
-```
-
 ### How to use env config
 
 * [Adding Custom Environment Variables](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
@@ -190,20 +169,22 @@ Read different `.env` configs according to current command (start / test / build
 
 By default (if custom config does not exist) read env variables from .env file.
 
-### How to change dev server port
+### Advanced configuration 
 
-Add `PORT` env variable. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms.
+<img src="https://pbs.twimg.com/media/C4di02WWAAArU9N.jpg" alt="Create React App Advanced Configuration"/>
+
+These are environment variables. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms or *.env* config.
 
 ```json
 "scripts": {
-  "start": "cross-env PORT=9001 react-scripts start"
+  "start": "cross-env BROWSER=firefox react-scripts start"
 }
 ```
 
-If you use `.env` config - just add `PORT` variable:
+If you use `.env` config - just add `BROWSER` variable:
 
 ```
-PORT=9001
+BROWSER=none
 ```
 
 ### How to setup root dir for require (webpack module.resolveDirectory analog)?
