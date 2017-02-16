@@ -48,7 +48,7 @@ Closed:
 
 * [CRA + Progressive Web App goodness](https://github.com/jeffposnick/create-react-pwa/)
 * [File API Input Layer](https://github.com/stoyan/fail)
-* [An Almost Static Stack. CRA + react-snapsho](https://github.com/superhighfives/an-almost-static-stack)
+* [An Almost Static Stack. CRA + react-snapshot](https://github.com/superhighfives/an-almost-static-stack)
 * [CRA + Redux](https://github.com/tuchk4/craft-redux)
 
 ## Deployment
