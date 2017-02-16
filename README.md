@@ -44,6 +44,13 @@ Closed:
 * [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
 * [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954)
 
+### CRAFT Templates
+
+* [CRA + Progressive Web App goodness](https://github.com/jeffposnick/create-react-pwa/)
+* [File API Input Layer](https://github.com/stoyan/fail)
+* [An Almost Static Stack. CRA + react-snapsho](https://github.com/superhighfives/an-almost-static-stack)
+* [CRA + Redux](https://github.com/tuchk4/craft-redux)
+
 ## Deployment
 
 * [Surge VS GitHub Pages: How to deploy a create-react-app project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
