@@ -77,6 +77,7 @@ Closed:
 * [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
 * [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
 * [Create React App vs other starter projects](http://andrewhfarmer.com/create-react-app/)
+* [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 
 ## Tweaking Configuration (workarounds)
 
