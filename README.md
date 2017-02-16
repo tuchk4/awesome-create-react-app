@@ -110,7 +110,6 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 * [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts) - Provides configuration for FLM's isomorphic React apps
 * [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass
 * [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
-* [React Storybook Scripts](https://github.com/thtliife/create-react-app-storybook-scripts-fork/tree/storybook/packages/react-scripts) - Create React App scripts with React Storyboard built in
 
 ## Alternatives
 
