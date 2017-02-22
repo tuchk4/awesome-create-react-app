@@ -43,6 +43,7 @@ Closed:
 
 * [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
 * [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954)
+* [cineastaJS: a framework and CLI tool to organize and automate](https://cineasta.js.org)
 
 ### CRAFT Templates
 
