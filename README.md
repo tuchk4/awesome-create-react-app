@@ -16,37 +16,39 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 ## Table of Contents
 
 - [Create React App Issues and Pull Requests](#create-react-app-issues-and-pull-requests)
+  - [New Awesome Merged Pull Requests](#new-awesome-merged-pull-requests)
+  - [Most Discussed / Interested Issues](#most-discussed-interested-issues)
 - [Tools](#tools)
 - [CRAFT Templates](#craft-templates)
 - [Deployment](#deployment)
 - [Articles](#articles)
-- [Tweaking Configuration (workarounds)](#tweaking-configuration-workarounds)
-- [Video tutorials](#video-tutorials)
-- [React scripts versions](#react-scripts-versions)
+- [Tweaking Configuration](#tweaking-configuration)
+- [Video Tutorials](#video-tutorials)
+- [React Scripts Versions](#react-scripts-versions)
 - [Alternatives](#alternatives)
 - [FAQ](#faq)
-  - [How to use env config](#how-to-use-env-config)
-  - [How to use multiple env configs](#how-to-use-multiple-env-configs)
-  - [Lazy loading (chunking)](#lazy-loading-chunking)
-  - [How to setup root dir for require (webpack module.resolveDirectory analog)?](#how-to-setup-root-dir-for-require-webpack-moduleresolvedirectory-analog)
-  - [How to use custom babel presets](#how-to-use-custom-babel-presets)
-  - [How to change webpack entry point and output dir?](#how-to-change-webpack-entry-point-and-output-dir)
-  - [How to change webpack config](#how-to-change-webpack-config)
+  - [How to Use Env Config](#how-to-use-env-config)
+  - [How to Use Multiple Env Configs](#how-to-use-multiple-env-configs)
+  - [Lazy Loading](#lazy-loading)
+  - [How to Setup Root Dir for Require?](#how-to-setup-root-dir-for-require-webpack-moduleresolvedirectory-analog)
+  - [How to Use Custom Babel Presets](#how-to-use-custom-babel-presets)
+  - [How to Change Webpack Entry Point and Output Dir?](#how-to-change-webpack-entry-point-and-output-dir)
+  - [How to Change Webpack Config](#how-to-change-webpack-config)
 
 
 ## Create React App Issues and Pull Requests
 
-#### New Awesome merged Pull Requests
+#### New Awesome Merged Pull Requests
 
-- [Add runtime error overlay](https://github.com/facebookincubator/create-react-app/pull/1101)
+- [Add Runtime Error Overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
 
 When an uncaught exception is thrown, an error is shown full screen similar to syntax overlay. It shows the error message and the stack.
 
-- [Use offline cached version with yarn when it's possible](https://github.com/facebookincubator/create-react-app/pull/1423)
+- [Use Offline Cached Version With Yarn When It's Possible #1423](https://github.com/facebookincubator/create-react-app/pull/1423)
 
 If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
 
-- [Fix workflow if react-scripts package is linked via npm-link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
+- [Fix Workflow If React-Scripts Package Is Linked via Npm-Link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
 
 Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates. `react-scripts` will now function as expected when linking to a development version. Previously, you could not test changes with an existing application via linking.
 
@@ -54,22 +56,22 @@ Advanced users may opt to fork `react-scripts` instead of ejecting so they still
 #### Actual Pull Requests
 
 - [Add BuildProgressPlugin #1011](https://github.com/facebookincubator/create-react-app/pull/1011)
-- [Feature/different env config files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
-- [Create git repository with initial commit #1288](https://github.com/facebookincubator/create-react-app/pull/1288)
-- [Export render function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
+- [Feature/Different Env Config Files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
+- [Create Git Repository With Initial Commit #1288](https://github.com/facebookincubator/create-react-app/pull/1288)
+- [Export Render Function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
 
 
-#### Most discussed / interested issues
+#### Most Discussed / Interested Issues
 
-- [Sharing components between apps, "create-react-component"](https://github.com/facebookincubator/create-react-app/issues/1492)
+- [Sharing Components Between Apps #1492](https://github.com/facebookincubator/create-react-app/issues/1492)
 - [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
-- [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
+- [Maintaining a Fork of React-Scripts as an Alternative to Ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
 ## Tools
 
-- [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
+- [CRA Generate: Scaffold a React Component](https://github.com/rthor/cra-generate)
 - [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954)
-- [cineastaJS: a framework and CLI tool to organize and automate](https://cineasta.js.org)
+- [CineastaJS: A Framework and CLI Tool to Organize and Automate](https://cineasta.js.org)
 
 ## CRAFT Templates
 
@@ -81,11 +83,11 @@ Advanced users may opt to fork `react-scripts` instead of ejecting so they still
 
 ## Deployment
 
-- [Surge VS GitHub Pages: How to deploy a create-react-app project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
-- [How to deploy a create-react-app (nginx)](https://www.peterbe.com/plog/how-to-deploy-a-create-react-app)
-- [Netlify: Deploy React Apps in less than 30 Seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
-- [Zero Configuration Deployment for React apps with Zeit’s now and now-deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
-- [Heroku: Deploying React with Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
+- [Surge VS GitHub Pages: How to Deploy A Create-React-App Project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
+- [How to Deploy a Create-React-App (Nginx)](https://www.peterbe.com/plog/how-to-deploy-a-create-react-app)
+- [Netlify: Deploy React Apps in Less Than 30 Seconds](https://www.netlify.com/blog/2016/07/22/deploy-react-apps-in-less-than-30-seconds/)
+- [Zero Configuration Deployment for React Apps With Zeit's Now and Now-Deploy](https://medium.com/@kawixiao/zero-configuration-deployment-for-react-apps-with-zeits-now-4f002be98c)
+- [Heroku: Deploying React With Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
 - [Create React App Buildpack](https://github.com/mars/create-react-app-buildpack)
 - [Creare React App - now.sh](https://github.com/xkawi/create-react-app-now)
 
@@ -97,40 +99,40 @@ Advanced users may opt to fork `react-scripts` instead of ejecting so they still
 - [Learning React With Create-React-App (Part 4)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc)
 - [How to Create ClojureScript App](https://medium.com/@roman01la/how-to-create-clojurescript-app-4e38778c4762)
 - [How to Create Elm App](https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a)
-- [How to get "create-react-app" to work with your API](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
-- [How to get "create-react-app" to work with your Rails API](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
-- [Using create-react-app with React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
+- [Creare React App - now.sh](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
+- [How to Get "Create-React-App" to Work With Your Rails API](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
+- [Using Create-React-App With React Router + Express.js](https://medium.com/@patriciolpezjuri/using-create-react-app-with-react-router-express-js-8fa658bf892d)
 - [Adding Hot Module Reloading to Create React App](https://medium.com/@sheepsteak/adding-hot-module-reloading-to-create-react-app-e053fadf569d)
-- [How you can use react-toolbox with create-react-app](https://github.com/react-toolbox/react-toolbox-themr)
-- [How to use ant design with create-react-app](https://ant.design/docs/react/use-with-create-react-app)
-- [How to build an Electron app using create-react-app. No webpack configuration or “ejecting” necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
+- [How You Can Use React-Toolbox With Create-React-App](https://github.com/react-toolbox/react-toolbox-themr)
+- [How to Use Ant Design With Create-React-App](https://ant.design/docs/react/use-with-create-react-app)
+- [How to Build an Electron App Using Create-React-App. No Webpack Configuration Or "Ejecting" Necessary](https://medium.freecodecamp.com/building-an-electron-application-with-create-react-app-97945861647c)
 - [Tip: Create React App and SASS](https://medium.com/@dan_abramov/well-to-be-perfectly-clear-you-can-just-outside-of-create-react-app-setup-6e44f91cc086)
-- [React / Create React App — But I don’t wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
-- [Jumpstate + Redux + Create-React-App — No dispatching or action-creators required!](https://medium.com/@tannerlinsley/jumpstate-redux-create-react-app-no-dispatch-or-action-creators-required-374e18dbcfe1)
-- [React Storybooks meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
-- [Getting Started with Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
-- [Cabin: 7 tutorials that teach you how to build a feature-rich, scalable social network app using React and Redux](http://cabin.getstream.io/)
-- [Using Rekit to quickly create a React app](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
-- [Create React App vs other starter projects](http://andrewhfarmer.com/create-react-app/)
+- [React / Create React App — but I Don't Wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
+- [Jumpstate + Redux + Create-React-App — No Dispatching or Action-Creators Required!](https://medium.com/@tannerlinsley/jumpstate-redux-create-react-app-no-dispatch-or-action-creators-required-374e18dbcfe1)
+- [React Storybooks Meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
+- [Getting Started With Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
+- [Cabin: 7 Tutorials That Teach You How to Build a Feature-Rich, Scalable Social Network App Using React and Redux](http://cabin.getstream.io/)
+- [Using Rekit to Quickly Create a React App](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
+- [Create React App vs Other Starter Projects](http://andrewhfarmer.com/create-react-app/)
 - [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 
-## Tweaking Configuration (workarounds)
+## Tweaking Configuration
 
-- [Tweaking Configuration For React Scripts In Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
-- [Customizing create-react-app](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
-- [Configure create-react-app without ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)
+- [Tweaking Configuration for React Scripts in Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
+- [Customizing Create-React-App](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
+- [Configure Create-React-App Without Ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)
 
 
-## Video tutorials
+## Video Tutorials
 
-- [Getting started with React with Create React App](https://www.youtube.com/watch?v=pCgDRgmfilE)
-- [Create React App - what's all the fuss about?](https://www.youtube.com/watch?v=wLgHjZM4pWM)
-- [Create React App with ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
+- [Getting Started With React With Create React App](https://www.youtube.com/watch?v=pCgDRgmfilE)
+- [Create React App - What's All the Fuss About?](https://www.youtube.com/watch?v=wLgHjZM4pWM)
+- [Create React App With ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
 - [Migrate to Create React App](https://www.youtube.com/watch?v=g8O0FT0uoDA)
-- [Use create-react-app to Setup a Simple React App](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup)
+- [Use Create-React-App to Setup a Simple React App](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup)
 
 
-## React scripts versions
+## React Scripts Versions
 
 This is not documented yet. More info at [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
@@ -168,7 +170,7 @@ Notable alternatives also include:
 
 ## FAQ
 
-### How to use env config
+### How to Use Env Config
 
 - [Adding Custom Environment Variables](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
 
@@ -178,7 +180,7 @@ Notable alternatives also include:
 
 > To define permanent environment variables, create a file called .env in the root of your project
 
-### How to use multiple env configs
+### How to Use Multiple Env Configs
 
 Right now it is possible installing [dotenv](https://github.com/motdotla/dotenv) and updating npm scripts:
 
@@ -210,7 +212,7 @@ Priority from left to right.
 
 By default (if custom config does not exist) read env variables from .env file.
 
-### Advanced configuration 
+### Advanced Configuration 
 
 <img src="https://pbs.twimg.com/media/C4di02WWAAArU9N.jpg" alt="Create React App Advanced Configuration"/>
 
@@ -228,14 +230,16 @@ If you use `.env` config - just add `BROWSER` variable:
 BROWSER=none
 ```
 
-### Lazy loading (chunking)
+### Lazy Loading
 
 Original issue - [Lazy load (chunking) feature? #925](https://github.com/facebookincubator/create-react-app/issues/925)
 
 > You can use require.ensure() because we use webpack under the hood.
 When we switch to webpack 2, you can use System.import instead.
 
-### How to setup root dir for require (webpack module.resolveDirectory analog)?
+### How to Setup Root Dir for Require
+
+What is the alternative for `webpack module.resolveDirectory`?
 
 Official solution: create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
 
@@ -253,7 +257,7 @@ If you use `.env` config - just add `NODE_PATH` variable:
 NODE_PATH=src/scripts
 ```
 
-### How to use custom babel presets
+### How to Use Custom Babel Presets
 
 Create React App [doesn’t support decorator syntax](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#can-i-use-decorators) at the moment.
 
@@ -279,7 +283,7 @@ PR is closed but
 
 So we do not recommend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at Create React App.
 
-### How to change webpack entry point and output dir?
+### How to Change Webpack Entry Point and Output Dir?
 
 There is the issue - [Customize build folder #1354](https://github.com/facebookincubator/create-react-app/issues/1354).
 This is feature is very useful along with entry point customizing and I have left  [comment](https://github.com/facebookincubator/create-react-app/issues/1354#issuecomment-275647959) about this.
@@ -290,8 +294,8 @@ But according to this Pull Request [Fix- react-scripts build doesn't allow for s
 
 There are some hacks how to change webpack config but note that it is officially unsupported and can break in any version.
 
-### How to change webpack config?
-### How to add custom webpack plugins?
+### How to Change Webpack Config?
+### How to Add Custom Webpack Plugins?
 
 ```json
 "scripts": {
