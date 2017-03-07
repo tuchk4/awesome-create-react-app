@@ -2,8 +2,6 @@
 
 A collection of awesome things regarding Create React App ecosystem.
 
-Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-react-app/issues/new) or suggest articles, videos and other useful resources via Pull Requests.
-
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
 ## Table of Contents
