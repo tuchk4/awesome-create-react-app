@@ -64,6 +64,7 @@ Advanced users may opt to fork `react-scripts` instead of ejecting so they still
 * [Sharing components between apps, "create-react-component"](https://github.com/facebookincubator/create-react-app/issues/1492)
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
 * [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
+
 ## Tools
 
 * [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
