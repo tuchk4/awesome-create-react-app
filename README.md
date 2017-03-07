@@ -6,16 +6,10 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-<img src="http://i.imgur.com/ULoeOL4.png" height="16"/> [Why I love Create React App and don't want to eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
-
-#### Create React App General Resources
-
-- [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
-- [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
-
 ## Table of Contents
 
 - [Create React App Issues and Pull Requests](#create-react-app-issues-and-pull-requests)
+  - [Create-React-App General Resources](#create-react-app-general-resources)
   - [New Awesome Merged Pull Requests](#new-awesome-merged-pull-requests)
   - [Most Discussed / Interested Issues](#most-discussed-interested-issues)
 - [Tools](#tools)
@@ -37,6 +31,13 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 
 ## Create React App Issues and Pull Requests
+
+#### Create-React-App General Resources
+
+- [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
+- [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
+- [Why I Love Create React App and Don't Want to Eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
+
 
 #### New Awesome Merged Pull Requests
 
