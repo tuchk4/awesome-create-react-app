@@ -189,7 +189,7 @@ Right now it is possible installing [dotenv](https://github.com/motdotla/dotenv)
 }
 ```
 
-There is the feature request with implemented [Pull Request](https://github.com/facebookincubator/create-react-app/pull/1344) - [Support different env configs](https://github.com/facebookincubator/create-react-app/issues/1343):
+There is the Pull Request [#1344](https://github.com/facebookincubator/create-react-app/pull/1344) that implements [Support different env configs](https://github.com/facebookincubator/create-react-app/issues/1343):
 
 Read different `.env` configs according to current command (start / test / build).
 
@@ -262,6 +262,11 @@ There are PR [Adding support for custom babel configuration #1357](https://githu
 - [Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators )
 - Features from [stage-0 preset](https://babeljs.io/docs/plugins/preset-stage-0/)
 - Any new babel features and presets
+
+PR is closed but
+
+- As soon as feature becomes candidate - CRA will support it. Here is [tweet](https://twitter.com/dan_abramov/status/818626114037968899) about decorators.
+- Features from stages 0 - 2 are not support because a lot of them hasn't been updated in a long time and doesn't appear to progress.
 
 [@dan_abramov](https://twitter.com/dan_abramov) wrote:
 
