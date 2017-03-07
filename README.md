@@ -13,7 +13,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 - [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 - [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
-## Contests
+## Table of Contents
 
 - [Create React App Issues and Pull Requests](#create-react-app-issues-and-pull-requests)
 - [Tools](#tools)
