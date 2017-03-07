@@ -13,7 +13,7 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
-## New Awesome merged 
+## New Awesome merged Pull Requests
 
 * [Add runtime error overlay](https://github.com/facebookincubator/create-react-app/pull/1101)
 
