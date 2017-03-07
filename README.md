@@ -58,17 +58,16 @@ A collection of awesome things regarding Create React App ecosystem.
 
 ## Tools
 
-- [CRA Generate: Scaffold a React Component](https://github.com/rthor/cra-generate)
-- [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954)
-- [CineastaJS: A Framework and CLI Tool to Organize and Automate](https://cineasta.js.org)
+- [CRA Generate: Scaffold a React Component](https://github.com/rthor/cra-generate) - Scaffold a React component.
+- [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954) - Create-React-App from the template
 
 ## CRAFT Templates
 
-- [CRA + Progressive Web App goodness](https://github.com/jeffposnick/create-react-pwa/)
-- [File API Input Layer](https://github.com/stoyan/fail)
-- [An Almost Static Stack. CRA + react-snapshot](https://github.com/superhighfives/an-almost-static-stack)
-- [CRA + Redux](https://github.com/tuchk4/craft-redux)
-- [Craft Template - MobX + React Router](https://github.com/timarney/cra-mobx-reactrouter)
+- [CRA + Progressive Web App goodness](https://github.com/jeffposnick/create-react-pwa/) - Progressive Web App tempalte.
+- [File API Input Layer](https://github.com/stoyan/fail) - File Upload Tempalte
+- [An Almost Static Stack. CRA + react-snapshot](https://github.com/superhighfives/an-almost-static-stack) - Bridge the gap between static sites and single page apps.
+- [CRA + Redux](https://github.com/tuchk4/craft-redux) - Create React App Template with Redux and Router
+- [Craft Template - MobX + React Router](https://github.com/timarney/cra-mobx-reactrouter) - - CRA Template with Mobx and Router
 
 ## Deployment
 
