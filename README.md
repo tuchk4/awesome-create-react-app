@@ -41,17 +41,9 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 #### New Awesome Merged Pull Requests
 
-- [Add Runtime Error Overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
-
-When an uncaught exception is thrown, an error is shown full screen similar to syntax overlay. It shows the error message and the stack.
-
-- [Use Offline Cached Version With Yarn When It's Possible #1423](https://github.com/facebookincubator/create-react-app/pull/1423)
-
-If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
-
-- [Fix Workflow If React-Scripts Package Is Linked via Npm-Link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
-
-Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates. `react-scripts` will now function as expected when linking to a development version. Previously, you could not test changes with an existing application via linking.
+- [Add Runtime Error Overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101). When an uncaught exception is thrown, an error is shown full screen similar to syntax overlay. It shows the error message and the stack.
+- [Use Offline Cached Version With Yarn When It's Possible #1423](https://github.com/facebookincubator/create-react-app/pull/1423). If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
+- [Fix Workflow If React-Scripts Package Is Linked via Npm-Link #1356](https://github.com/facebookincubator/create-react-app/pull/1356). Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates. `react-scripts` will now function as expected when linking to a development version. Previously, you could not test changes with an existing application via linking.
 
 
 #### Actual Pull Requests
