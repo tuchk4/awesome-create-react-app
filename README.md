@@ -8,12 +8,35 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 
 <img src="http://i.imgur.com/ULoeOL4.png" height="16"/> [Why I love Create React App and don't want to eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
 
-## Create React App General Resources
+#### Create React App General Resources
 
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
-## New Awesome merged Pull Requests
+## Contests
+
+- [Create React App Issues and Pull Requests](#create-react-app-issues-and-pull-requests)
+- [Tools](#tools)
+- [CRAFT Templates](#craft-templates)
+- [Deployment](#deployment)
+- [Articles](#articles)
+- [Tweaking Configuration (workarounds)](#tweaking-configuration-workarounds)
+- [Video tutorials](#video-tutorials)
+- [React scripts versions](#react-scripts-versions)
+- [Alternatives](#alternatives)
+- [FAQ](#faq)
+  - [How to use env config](#how-to-use-env-config)
+  - [How to use multiple env configs](#how-to-use-multiple-env-configs)
+  - [Lazy loading (chunking)](#lazy-loading-chunking)
+  - [How to setup root dir for require (webpack module.resolveDirectory analog)?](#how-to-setup-root-dir-for-require-webpack-moduleresolvedirectory-analog)
+  - [How to use custom babel presets](#how-to-use-custom-babel-presets)
+  - [How to change webpack entry point and output dir?](#how-to-change-webpack-entry-point-and-output-dir)
+  - [How to change webpack config](#how-to-change-webpack-config)
+
+
+## Create React App Issues and Pull Requests
+
+#### New Awesome merged Pull Requests
 
 * [Add runtime error overlay](https://github.com/facebookincubator/create-react-app/pull/1101)
 
@@ -28,7 +51,7 @@ If you are using Yarn, and you have created at least one app previously, Create 
 Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates. `react-scripts` will now function as expected when linking to a development version. Previously, you could not test changes with an existing application via linking.
 
 
-## Actual Pull Requests
+#### Actual Pull Requests
 
 * [Add BuildProgressPlugin #1011](https://github.com/facebookincubator/create-react-app/pull/1011)
 * [Feature/different env config files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
@@ -36,19 +59,18 @@ Advanced users may opt to fork `react-scripts` instead of ejecting so they still
 * [Export render function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
 
 
-## Most discussed / interested issues
+#### Most discussed / interested issues
 
 * [Sharing components between apps, "create-react-component"](https://github.com/facebookincubator/create-react-app/issues/1492)
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
 * [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
-
 ## Tools
 
 * [CRA generate: Scaffold a React component](https://github.com/rthor/cra-generate)
 * [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954)
 * [cineastaJS: a framework and CLI tool to organize and automate](https://cineasta.js.org)
 
-### CRAFT Templates
+## CRAFT Templates
 
 * [CRA + Progressive Web App goodness](https://github.com/jeffposnick/create-react-pwa/)
 * [File API Input Layer](https://github.com/stoyan/fail)
