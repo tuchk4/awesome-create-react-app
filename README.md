@@ -15,29 +15,34 @@ Please feel free to [file an issue](https://github.com/tuchk4/awesome-create-rea
 * [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 * [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 
+## New Awesome merged 
+
+* [Add runtime error overlay](https://github.com/facebookincubator/create-react-app/pull/1101)
+
+When an uncaught exception is thrown, an error is shown full screen similar to syntax overlay. It shows the error message and the stack.
+
+* [Use offline cached version with yarn when it's possible](https://github.com/facebookincubator/create-react-app/pull/1423)
+
+If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
+
+* [Fix workflow if react-scripts package is linked via npm-link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
+
+Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates. `react-scripts` will now function as expected when linking to a development version. Previously, you could not test changes with an existing application via linking.
+
 
 ## Actual Pull Requests
 
 * [Add BuildProgressPlugin #1011](https://github.com/facebookincubator/create-react-app/pull/1011)
-* [Add runtime error overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101)
 * [Feature/different env config files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
-* [Fix workflow if react-scripts package is linked via npm-link #1356](https://github.com/facebookincubator/create-react-app/pull/1356)
 * [Create git repository with initial commit #1288](https://github.com/facebookincubator/create-react-app/pull/1288)
 * [Export render function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
 
 
 ## Most discussed / interested issues
 
-Open:
 * [Sharing components between apps, "create-react-component"](https://github.com/facebookincubator/create-react-app/issues/1492)
 * [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
 * [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
-
-Closed:
-* [Add SASS support documentation #1008](https://github.com/facebookincubator/create-react-app/pull/1008)
-* [A global CLI for running a single component #645](https://github.com/facebookincubator/create-react-app/issues/645)
-* [Proposal: "configurator" field in package.json #215](https://github.com/facebookincubator/create-react-app/issues/215)
-* [Preprocess future-proof CSS features #130](https://github.com/facebookincubator/create-react-app/issues/130)
 
 ## Tools
 
@@ -51,6 +56,7 @@ Closed:
 * [File API Input Layer](https://github.com/stoyan/fail)
 * [An Almost Static Stack. CRA + react-snapshot](https://github.com/superhighfives/an-almost-static-stack)
 * [CRA + Redux](https://github.com/tuchk4/craft-redux)
+* [Craft Template - MobX + React Router](https://github.com/timarney/cra-mobx-reactrouter)
 
 ## Deployment
 
