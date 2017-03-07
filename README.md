@@ -134,9 +134,9 @@ Advanced users may opt to fork `react-scripts` instead of ejecting so they still
 
 This is not documented yet. More info at [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
-- [React Super Scripts](https://github.com/shrynx/react-super-scripts) - Adds super powers to create-react-app and allows custom configs without ejecting
-- [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts) - Provides configuration for FLM's isomorphic React apps
-- [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass
+- [React Super Scripts](https://github.com/shrynx/react-super-scripts) - Adds super powers to create-react-app and allows custom configs without ejecting.
+- [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts) - Provides configuration for FLM's isomorphic React apps.
+- [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass.
 - [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
 - [Pluggable React Scripts](https://github.com/thtliife/create-react-app/tree/react-scripts-pluggable/packages/react-scripts) - Allows extending of create-react-app's webpack config via "pluggable" modules.
 
@@ -147,23 +147,23 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 
 Alternatives from [Create React App README](https://github.com/facebookincubator/create-react-app#alternatives):
 
-- [insin/nwb](https://github.com/insin/nwb) - A toolkit for React, Preact & Inferno apps, React libraries and other npm modules for the web, with no configuration (until you need it)
-- [mozilla/neo](https://github.com/mozilla/neo) - Create and build React web applications with zero initial configuration and minimal fuss
-- [NYTimes/kyt](https://github.com/NYTimes/kyt) - Drowning in Webpack configs? Try this build, test and development tool for advanced JavaScript apps
-- [zeit/next.js](https://github.com/zeit/next.js) - Framework for server-rendered React apps
-- [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) - Transform plain text into dynamic blogs and websites using React.js
+- [insin/nwb](https://github.com/insin/nwb) - A toolkit for React, Preact & Inferno apps, React libraries and other npm modules for the web, with no configuration (until you need it).
+- [mozilla/neo](https://github.com/mozilla/neo) - Create and build React web applications with zero initial configuration and minimal fuss.
+- [NYTimes/kyt](https://github.com/NYTimes/kyt) - Drowning in Webpack configs? Try this build, test and development tool for advanced JavaScript apps.
+- [zeit/next.js](https://github.com/zeit/next.js) - Framework for server-rendered React apps.
+- [gatsbyjs/gatsby](https://github.com/gatsbyjs/gatsby) - Transform plain text into dynamic blogs and websites using React.
 
 Notable alternatives also include:
 
-- [enclave](https://github.com/eanplatter/enclave) - A simpler way to compile React applications
-- [motion](https://github.com/motion/motion) - A simple CLI for running React projects
-- [quik](https://github.com/satya164/quik)- A quick way to prototype and build apps with React and Babel with zero-setup
-- [sagui](https://github.com/saguijs/sagui) - Front-end tooling in a single dependency
-- [roc](https://github.com/rocjs/roc)- Modern JavaScript Development Ecosystem
-- [aik](https://github.com/d4rkr00t/aik)- Frontend Playground
-- [react-app](https://github.com/kriasoft/react-app) - CLI tools and templates for authoring React applications with a single dev dependency and no configurations
-- [dev-toolkit](https://github.com/stoikerty/dev-toolkit) - Development Toolkit for React Veterans
-- [tarec](https://github.com/geowarin/tarec) - The Awesome React Cli
+- [enclave](https://github.com/eanplatter/enclave) - A simpler way to compile React applications.
+- [motion](https://github.com/motion/motion) - A simple CLI for running React projects.
+- [quik](https://github.com/satya164/quik)- A quick way to prototype and build apps with React and Babel with zero-setup.
+- [sagui](https://github.com/saguijs/sagui) - Front-end tooling in a single dependency.
+- [roc](https://github.com/rocjs/roc)- Modern JavaScript Development Ecosystem.
+- [aik](https://github.com/d4rkr00t/aik)- Frontend Playground.
+- [react-app](https://github.com/kriasoft/react-app) - CLI tools and templates for authoring React applications with a single dev dependency and no configurations.
+- [dev-toolkit](https://github.com/stoikerty/dev-toolkit) - Development Toolkit for React Veterans.
+- [tarec](https://github.com/geowarin/tarec) - The Awesome React Cli.
 
 
 ## FAQ
@@ -192,8 +192,21 @@ Right now it is possible installing [dotenv](https://github.com/motdotla/dotenv)
 There is the feature request with implemented [Pull Request](https://github.com/facebookincubator/create-react-app/pull/1344) - [Support different env configs](https://github.com/facebookincubator/create-react-app/issues/1343):
 
 Read different `.env` configs according to current command (start / test / build).
-* Read `dev.env` when npm start and npm test
-* Read `prod.env` when npm run build
+
+What .env* files are used?
+
+* `.env` - Default
+* `.env.development`, `.env.test`, `.env.production` - Environment-specific settings.
+* `.env.local` - Local overrides. This file is loaded for all environments except test.
+* `.env.development.local`, `.env.test.local`, `.env.production.local` - Local overrides of environment-specific settings.
+
+Files priority (file is skipped if does not exist):
+
+* npm test - `.env.test.local`, `env.test`, `.env.local`, `.env`
+* npm run build - `.env.production.local`, `env.production`, `.env.local`, `.env`
+* npm start - `.env.development.local`, `env.development`, `.env.local`, `.env`
+
+Priority from left to right.
 
 By default (if custom config does not exist) read env variables from .env file.
 
@@ -226,7 +239,7 @@ When we switch to webpack 2, you can use System.import instead.
 
 Official solution: create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
 
-Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official documentation ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders)
+Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official documentation ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders).
 
 ```json
 "scripts": {
