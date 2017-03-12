@@ -67,7 +67,7 @@ A collection of awesome things regarding Create React App ecosystem.
 - [File API Input Layer](https://github.com/stoyan/fail) - File Upload Tempalte
 - [An Almost Static Stack. CRA + react-snapshot](https://github.com/superhighfives/an-almost-static-stack) - Bridge the gap between static sites and single page apps.
 - [CRA + Redux](https://github.com/tuchk4/craft-redux) - Create React App Template with Redux and Router
-- [Craft Template - MobX + React Router](https://github.com/timarney/cra-mobx-reactrouter) - - CRA Template with Mobx and Router
+- [Craft Template - MobX + React Router](https://github.com/timarney/cra-mobx-reactrouter) - CRA Template with Mobx and Router
 
 ## Deployment
 
