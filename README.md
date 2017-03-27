@@ -19,6 +19,7 @@ A collection of awesome things regarding Create React App ecosystem.
 - [FAQ](#faq)
   - [How to Use Env Config](#how-to-use-env-config)
   - [How to Use Multiple Env Configs](#how-to-use-multiple-env-configs)
+  - [Advanced Configuration](#advanced-configuration)
   - [Lazy Loading](#lazy-loading)
   - [How to Setup Root Dir for Require?](#how-to-setup-root-dir-for-require-webpack-moduleresolvedirectory-analog)
   - [How to Use Custom Babel Presets](#how-to-use-custom-babel-presets)
