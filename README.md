@@ -203,7 +203,7 @@ By default (if custom config does not exist) read env variables from .env file.
 
 ### Advanced Configuration 
 
-<img src="https://pbs.twimg.com/media/C4di02WWAAArU9N.jpg" alt="Create React App Advanced Configuration"/>
+<img src="https://camo.githubusercontent.com/59e1be59d191ad29983a91b039f0e9089918dfb4/68747470733a2f2f7075752e73682f745866456c2f336361346536636264652e706e67" alt="Create React App Advanced Configuration"/>
 
 These are environment variables. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms or *.env* config.
 
