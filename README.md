@@ -22,6 +22,7 @@ A collection of awesome things regarding Create React App ecosystem.
   - [Advanced Configuration](#advanced-configuration)
   - [Lazy Loading](#lazy-loading)
   - [How to Setup Root Dir for Require?](#how-to-setup-root-dir-for-require-webpack-moduleresolvedirectory-analog)
+  - [HMR (Hot Module Replacement)](#hmr-hot-module-replacement)
   - [How to Use Custom Babel Presets](#how-to-use-custom-babel-presets)
   - [How to Change Webpack Entry Point and Output Dir?](#how-to-change-webpack-entry-point-and-output-dir)
   - [How to Change Webpack Config](#how-to-change-webpack-config)
@@ -254,13 +255,10 @@ By default HMR works only for CSS modules. If you want to use for components add
 
 ```js
 // App - root component
-const render = (Root) => {
-  ReactDOM.render(
-    (
-      <Provider store={store}>
-        <Root />
-      </Provider>
-    ),
+import App from './App';
+
+const render = Root => {
+  ReactDOM.render(<Root />,
     document.getElementById('root')
   );
 }
