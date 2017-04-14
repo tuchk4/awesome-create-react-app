@@ -246,6 +246,35 @@ If you use `.env` config - just add `NODE_PATH` variable:
 NODE_PATH=src/scripts
 ```
 
+## HMR (Hot Module Replacement)
+
+By default HMR works only for CSS modules. If you want to use for components add these lines to *index.js*:
+
+> NOTE: This will work but not preserve the components state, but redux / mobx / whatever state managers will be preserved
+
+```js
+// App - root component
+const render = (Root) => {
+  ReactDOM.render(
+    (
+      <Provider store={store}>
+        <Root />
+      </Provider>
+    ),
+    document.getElementById('root')
+  );
+}
+
+render(App);
+
+if (module.hot) {
+  module.hot.accept('./App', () => {
+    var NextApp = require('./App').default;
+    render(NextApp);
+  });
+}
+```
+
 ### How to Use Custom Babel Presets
 
 Create React App [doesn’t support decorator syntax](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#can-i-use-decorators) at the moment.
