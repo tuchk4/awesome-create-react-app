@@ -106,12 +106,13 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Create React App vs Other Starter Projects](http://andrewhfarmer.com/create-react-app/)
 - [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 
+
 ## Tweaking Configuration
 
 - [Tweaking Configuration for React Scripts in Create React App](https://medium.com/@shubheksha/tweaking-configuration-for-react-scripts-in-create-react-app-d91e9d03a42f)
 - [Customizing Create-React-App](https://medium.com/@tacomanator/customizing-create-react-app-aa9ffb88165)
 - [Configure Create-React-App Without Ejecting ⏏](https://medium.com/@kitze/configure-create-react-app-without-ejecting-d8450e96196a)
-
+- [Create-React-Scripts — create your own react-scripts without fork](https://medium.com/@szer0601/create-react-scripts-create-your-own-react-scripts-without-fork-e73d384c7369)
 
 ## Video Tutorials
 
@@ -131,11 +132,12 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 - [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass.
 - [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
 - [Pluggable React Scripts](https://github.com/thtliife/create-react-app/tree/react-scripts-pluggable/packages/react-scripts) - Allows extending of create-react-app's webpack config via "pluggable" modules.
+- [React Scripts Web](https://github.com/raymondsze/create-react-scripts/tree/master/packages/react-scripts-web) - React-scripts built using create-react-scripts, supports workbox(PWA), vendorDll, babelrc and eslintrc.
 
 ## Alternatives
 
 - [React App Rewired](https://github.com/timarney/react-app-rewired) - Configure the unconfigurable, override create-react-app webpack configs.
-
+- [Create React Scripts](https://github.com/raymondsze/create-react-scripts/tree/master/packages/create-react-scripts) - Easily extend the react-scripts from create-react-app to your own version of react-scripts. Package for SSR, Less, Sass, Workbox(PWA), VendorDll are included.
 
 Alternatives from [Create React App README](https://github.com/facebookincubator/create-react-app#alternatives):
 
