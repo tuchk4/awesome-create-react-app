@@ -21,7 +21,7 @@ A collection of awesome things regarding Create React App ecosystem.
   - [How to Use Multiple Env Configs](#how-to-use-multiple-env-configs)
   - [Advanced Configuration](#advanced-configuration)
   - [Lazy Loading](#lazy-loading)
-  - [How to Setup Root Dir for Require?](#how-to-setup-root-dir-for-require-webpack-moduleresolvedirectory-analog)
+  - [How to Setup Root Dir for Require?](#how-to-setup-root-dir-for-require)
   - [HMR (Hot Module Replacement)](#hmr-hot-module-replacement)
   - [How to Use Custom Babel Presets](#how-to-use-custom-babel-presets)
   - [How to Change Webpack Entry Point and Output Dir?](#how-to-change-webpack-entry-point-and-output-dir)
