@@ -62,6 +62,7 @@ A collection of awesome things regarding Create React App ecosystem.
 
 - [CRA Generate: Scaffold a React Component](https://github.com/rthor/cra-generate) - Scaffold a React component.
 - [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954) - Create-React-App from the template
+- [CRA Universal CLI](https://github.com/antonybudianto/cra-universal) - CLI for SSR Create React App, without eject
 
 ## CRAFT Templates
 
