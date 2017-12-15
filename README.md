@@ -133,7 +133,9 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 - [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass.
 - [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
 - [Pluggable React Scripts](https://github.com/thtliife/create-react-app/tree/react-scripts-pluggable/packages/react-scripts) - Allows extending of create-react-app's webpack config via "pluggable" modules.
+- [Typescript React Starter](https://github.com/Microsoft/TypeScript-React-Starter) - CRA scripts version maintained by Microsoft's team to start apps with Typescript.
 - [React Scripts Web](https://github.com/raymondsze/create-react-scripts/tree/master/packages/react-scripts-web) - React-scripts built using create-react-scripts, supports workbox(PWA), vendorDll, babelrc and eslintrc.
+
 
 ## Alternatives
 
