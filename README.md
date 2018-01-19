@@ -106,6 +106,7 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Using Rekit to Quickly Create a React App](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
 - [Create React App vs Other Starter Projects](http://andrewhfarmer.com/create-react-app/)
 - [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
+- [Upgrading a create-react-app project to SSR + code splitting](https://medium.com/@andreiduca/upgrading-a-create-react-app-project-to-a-ssr-code-splitting-setup-9da57df2040a)
 
 
 ## Tweaking Configuration
