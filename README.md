@@ -25,7 +25,9 @@ A collection of awesome things regarding Create React App ecosystem.
   - [HMR (Hot Module Replacement)](#hmr-hot-module-replacement)
   - [How to Use Custom Babel Presets](#how-to-use-custom-babel-presets)
   - [How to Change Webpack Entry Point and Output Dir?](#how-to-change-webpack-entry-point-and-output-dir)
+  - [Watching Build Mode on Create React App](#watching-build-mode-on-create-react-app)
   - [How to Change Webpack Config](#how-to-change-webpack-config)
+  - [How to Add Custom Webpack Plugins](#how-to-add-custom-webpack-plugins)
 
 
 ## Create React App Issues and Pull Requests
@@ -314,6 +316,10 @@ But according to this Pull Request [Fix- react-scripts build doesn't allow for s
 > won’t be introducing more configuration on a case-by-case basis. We might add support for a configuration file at some point, but not now.
 
 There are some hacks how to change webpack config but note that it is officially unsupported and can break in any version.
+
+### Watching Build Mode on Create React App
+
+Example is [here](https://gist.github.com/int128/e0cdec598c5b3db728ff35758abdbafd)
 
 ### How to Change Webpack Config?
 ### How to Add Custom Webpack Plugins?
