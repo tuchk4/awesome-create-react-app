@@ -125,6 +125,7 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Create React App With ExpressJS and Now](https://www.youtube.com/watch?v=HfAPmRpxQEY)
 - [Migrate to Create React App](https://www.youtube.com/watch?v=g8O0FT0uoDA)
 - [Use Create-React-App to Setup a Simple React App](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup)
+- [Why I Love Create React App (React Allicante 2017)](https://www.youtube.com/watch?v=Jn18gZ9jO0U)
 
 
 ## React Scripts Versions
