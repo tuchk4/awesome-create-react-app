@@ -35,6 +35,7 @@ A collection of awesome things regarding Create React App ecosystem.
 #### Create-React-App General Resources
 
 - [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
+- [Create React App 2.0](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html)
 - [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 - [Why I Love Create React App and Don't Want to Eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
 
