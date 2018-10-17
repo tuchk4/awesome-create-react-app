@@ -4,10 +4,7 @@ A collection of awesome things regarding Create React App ecosystem.
 
 ## Table of Contents
 
-- [Create React App Issues and Pull Requests](#create-react-app-issues-and-pull-requests)
-  - [Create-React-App General Resources](#create-react-app-general-resources)
-  - [New Awesome Merged Pull Requests](#new-awesome-merged-pull-requests)
-  - [Most Discussed / Interested Issues](#most-discussed-interested-issues)
+- [Create-React-App General Resources](#create-react-app-general-resources)
 - [Tools](#tools)
 - [CRAFT Templates](#craft-templates)
 - [Deployment](#deployment)
@@ -30,8 +27,6 @@ A collection of awesome things regarding Create React App ecosystem.
   - [How to Add Custom Webpack Plugins](#how-to-add-custom-webpack-plugins)
 
 
-## Create React App Issues and Pull Requests
-
 #### Create-React-App General Resources
 
 - [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
@@ -39,27 +34,6 @@ A collection of awesome things regarding Create React App ecosystem.
 - [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 - [Why I Love Create React App and Don't Want to Eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
 
-
-#### New Awesome Merged Pull Requests
-
-- [Add Runtime Error Overlay #1101](https://github.com/facebookincubator/create-react-app/pull/1101). When an uncaught exception is thrown, an error is shown full screen similar to syntax overlay. It shows the error message and the stack.
-- [Use Offline Cached Version With Yarn When It's Possible #1423](https://github.com/facebookincubator/create-react-app/pull/1423). If you are using Yarn, and you have created at least one app previously, Create React App now works offline.
-- [Fix Workflow If React-Scripts Package Is Linked via Npm-Link #1356](https://github.com/facebookincubator/create-react-app/pull/1356). Advanced users may opt to fork `react-scripts` instead of ejecting so they still receive upstream updates. `react-scripts` will now function as expected when linking to a development version. Previously, you could not test changes with an existing application via linking.
-
-
-#### Actual Pull Requests
-
-- [Add BuildProgressPlugin #1011](https://github.com/facebookincubator/create-react-app/pull/1011)
-- [Feature/Different Env Config Files #1344](https://github.com/facebookincubator/create-react-app/pull/1344)
-- [Create Git Repository With Initial Commit #1288](https://github.com/facebookincubator/create-react-app/pull/1288)
-- [Export Render Function #1292](https://github.com/facebookincubator/create-react-app/pull/1292)
-
-
-#### Most Discussed / Interested Issues
-
-- [Sharing Components Between Apps #1492](https://github.com/facebookincubator/create-react-app/issues/1492)
-- [Plugin System #670](https://github.com/facebookincubator/create-react-app/issues/670)
-- [Maintaining a Fork of React-Scripts as an Alternative to Ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
 
 ## Tools
 
