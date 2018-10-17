@@ -27,7 +27,7 @@ A collection of awesome things regarding Create React App ecosystem.
   - [How to Add Custom Webpack Plugins](#how-to-add-custom-webpack-plugins)
 
 
-#### Create-React-App General Resources
+## Create-React-App General Resources
 
 - [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
 - [Create React App 2.0](https://reactjs.org/blog/2018/10/01/create-react-app-v2.html)
