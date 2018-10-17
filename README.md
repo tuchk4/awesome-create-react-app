@@ -103,7 +103,6 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Tip: Create React App and SASS](https://medium.com/@dan_abramov/well-to-be-perfectly-clear-you-can-just-outside-of-create-react-app-setup-6e44f91cc086)
 - [React / Create React App — but I Don't Wanna Eject](https://medium.com/@timarney/but-i-dont-wanna-eject-3e3da5826e39)
 - [Jumpstate + Redux + Create-React-App — No Dispatching or Action-Creators Required!](https://medium.com/@tannerlinsley/jumpstate-redux-create-react-app-no-dispatch-or-action-creators-required-374e18dbcfe1)
-- [React Storybooks Meets Create React App](https://voice.kadira.io/react-storybooks-meets-create-react-app-ac8a3f32cc79)
 - [Getting Started With Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
 - [Cabin: 7 Tutorials That Teach You How to Build a Feature-Rich, Scalable Social Network App Using React and Redux](http://cabin.getstream.io/)
 - [Using Rekit to Quickly Create a React App](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
@@ -137,7 +136,6 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 - [React Scripts (Isomorphic)](https://github.com/firstlookmedia/react-scripts) - Provides configuration for FLM's isomorphic React apps.
 - [Create React App Sass](https://github.com/rickharrison/create-react-app-sass) - Enhances create-react-app to include support for Sass.
 - [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
-- [Pluggable React Scripts](https://github.com/thtliife/create-react-app/tree/react-scripts-pluggable/packages/react-scripts) - Allows extending of create-react-app's webpack config via "pluggable" modules.
 - [Typescript React Starter](https://github.com/Microsoft/TypeScript-React-Starter) - CRA scripts version maintained by Microsoft's team to start apps with Typescript.
 - [React Scripts Web](https://github.com/raymondsze/create-react-scripts/tree/master/packages/react-scripts-web) - React-scripts built using create-react-scripts, supports workbox(PWA), vendorDll, babelrc and eslintrc.
 
@@ -243,7 +241,7 @@ What is the alternative for `webpack module.resolveDirectory`?
 
 Official solution: create `node_modules` at `src` directory - [src/node_modules as official solution for absolute imports #1065](https://github.com/facebookincubator/create-react-app/issues/1065)
 
-Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modulesDirectories](https://webpack.github.io/docs/configuration.html#resolve-modulesdirectories) for webpack. More details at node official documentation ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders).
+Another way - use `NODE_PATH` env variable. It is a directory name to be resolved to the current directory as well as its ancestors, and searched for modules. It is [resolve.modules](https://webpack.js.org/configuration/resolve/#resolve-modules) for webpack. More details at node official documentation ["Loading from the global folders"](https://nodejs.org/api/modules.html#modules_loading_from_the_global_folders).
 
 ```json
 "scripts": {
