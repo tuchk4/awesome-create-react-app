@@ -112,6 +112,7 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 - [Custom React Scripts](https://www.npmjs.com/package/custom-react-scripts) - Configuration and scripts for Create React App.
 - [Typescript React Starter](https://github.com/Microsoft/TypeScript-React-Starter) - CRA scripts version maintained by Microsoft's team to start apps with Typescript.
 - [React Scripts Web](https://github.com/raymondsze/create-react-scripts/tree/master/packages/react-scripts-web) - React-scripts built using create-react-scripts, supports workbox(PWA), vendorDll, babelrc and eslintrc.
+- [React Scripts With SSR](https://github.com/joernb/react-scripts-with-ssr) - Adds server-side rendering to create-react-app projects.
 
 
 ## Alternatives
