@@ -117,6 +117,8 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 
 ## Alternatives
 
+- [Craco](https://github.com/sharegate/craco) - Create React App Configuration Override, an easy and comprehensible configuration layer for create-react-app
+- [Rescripts](https://github.com/harrysolovay/rescripts) - Use the latest react-scripts with custom configurations for Babel, ESLint, TSLint, Webpack,... ∞
 - [React App Rewired](https://github.com/timarney/react-app-rewired) - Configure the unconfigurable, override create-react-app webpack configs.
 - [Create React Scripts](https://github.com/raymondsze/create-react-scripts/tree/master/packages/create-react-scripts) - Easily extend the react-scripts from create-react-app to your own version of react-scripts. Package for SSR, Less, Sass, Workbox(PWA), VendorDll are included.
 
