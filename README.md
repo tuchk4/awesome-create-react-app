@@ -6,6 +6,7 @@ A collection of awesome things regarding Create React App ecosystem.
 
 - [Create-React-App General Resources](#create-react-app-general-resources)
 - [Tools](#tools)
+- [CRA Templates](#cra-templates)
 - [CRAFT Templates](#craft-templates)
 - [Deployment](#deployment)
 - [Articles](#articles)
