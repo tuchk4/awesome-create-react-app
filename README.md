@@ -68,8 +68,6 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
 - [Learning React With Create-React-App (Part 2)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-2-3ad99f38b48d)
 - [Learning React With Create-React-App (Part 3)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-3-322447d14192)
-- [Learning React With Create-React-App (Part 4)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc)
-- [How to Create ClojureScript App](https://medium.com/@roman01la/how-to-create-clojurescript-app-4e38778c4762)
 - [How to Create Elm App](https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a)
 - [Creare React App - now.sh](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
 - [How to Get "Create-React-App" to Work With Your Rails API](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
@@ -84,7 +82,6 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Getting Started With Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
 - [Cabin: 7 Tutorials That Teach You How to Build a Feature-Rich, Scalable Social Network App Using React and Redux](http://cabin.getstream.io/)
 - [Using Rekit to Quickly Create a React App](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
-- [Create React App vs Other Starter Projects](http://andrewhfarmer.com/create-react-app/)
 - [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 - [Upgrading a create-react-app project to SSR + code splitting](https://medium.com/@andreiduca/upgrading-a-create-react-app-project-to-a-ssr-code-splitting-setup-9da57df2040a)
 
