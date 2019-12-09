@@ -168,7 +168,7 @@ There is the Pull Request [#1344](https://github.com/facebookincubator/create-re
 
 Read different `.env` configs according to current command (start / test / build).
 
-What .env\* files are used?
+What `.env*` files are used?
 
 - `.env` - Default
 - `.env.development`, `.env.test`, `.env.production` - Environment-specific settings.
