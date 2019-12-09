@@ -6,6 +6,7 @@ A collection of awesome things regarding Create React App ecosystem.
 
 - [Create-React-App General Resources](#create-react-app-general-resources)
 - [Tools](#tools)
+- [CRA Templates](#cra-templates)
 - [CRAFT Templates](#craft-templates)
 - [Deployment](#deployment)
 - [Articles](#articles)
@@ -26,7 +27,6 @@ A collection of awesome things regarding Create React App ecosystem.
   - [How to Change Webpack Config](#how-to-change-webpack-config)
   - [How to Add Custom Webpack Plugins](#how-to-add-custom-webpack-plugins)
 
-
 ## Create-React-App General Resources
 
 - [Create React App GitHub](https://github.com/facebookincubator/create-react-app)
@@ -34,12 +34,17 @@ A collection of awesome things regarding Create React App ecosystem.
 - [User Guide](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md)
 - [Why I Love Create React App and Don't Want to Eject](https://medium.com/@valeriy.sorokobatko/why-i-love-create-react-app-e63b1be689a3)
 
-
 ## Tools
 
 - [CRA Generate: Scaffold a React Component](https://github.com/rthor/cra-generate) - Scaffold a React component.
 - [CRAFT: Create React App From Template](https://medium.com/@stoyanstefanov/craft-create-react-app-from-template-7fd3383d0954) - Create-React-App from the template
 - [CRA Universal CLI](https://github.com/antonybudianto/cra-universal) - CLI for SSR Create React App, without eject
+
+## CRA Templates
+
+- [cra-template](https://github.com/facebook/create-react-app/tree/master/packages/cra-template) - Official standard JavaScript CRA template.
+- [cra-template-typescript](https://github.com/facebook/create-react-app/tree/master/packages/cra-template-typescript) - Official standard TypeScript CRA template.
+- [cra-template-advanced](https://github.com/borisowsky/cra-template-advanced) - The opinioned advanced well-structured TypeScript template for Create React App.
 
 ## CRAFT Templates
 
@@ -64,8 +69,6 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Learning React With Create-React-App (Part 1)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-1-a12e1833fdc)
 - [Learning React With Create-React-App (Part 2)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-2-3ad99f38b48d)
 - [Learning React With Create-React-App (Part 3)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-3-322447d14192)
-- [Learning React With Create-React-App (Part 4)](https://medium.com/@diamondgfx/learning-react-with-create-react-app-part-4-9f843c8c1ccc)
-- [How to Create ClojureScript App](https://medium.com/@roman01la/how-to-create-clojurescript-app-4e38778c4762)
 - [How to Create Elm App](https://medium.com/@eduardkyvenko/how-to-create-elm-app-cf052629a11a)
 - [Creare React App - now.sh](https://www.fullstackreact.com/articles/using-create-react-app-with-a-server/)
 - [How to Get "Create-React-App" to Work With Your Rails API](https://www.fullstackreact.com/articles/how-to-get-create-react-app-to-work-with-your-rails-api/)
@@ -80,10 +83,8 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Getting Started With Create React App and AVA](https://semaphoreci.com/community/tutorials/getting-started-with-create-react-app-and-ava)
 - [Cabin: 7 Tutorials That Teach You How to Build a Feature-Rich, Scalable Social Network App Using React and Redux](http://cabin.getstream.io/)
 - [Using Rekit to Quickly Create a React App](https://medium.com/@nate_wang/using-rekit-to-quickly-create-a-react-app-108bcc07e7f)
-- [Create React App vs Other Starter Projects](http://andrewhfarmer.com/create-react-app/)
 - [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 - [Upgrading a create-react-app project to SSR + code splitting](https://medium.com/@andreiduca/upgrading-a-create-react-app-project-to-a-ssr-code-splitting-setup-9da57df2040a)
-
 
 ## Tweaking Configuration
 
@@ -101,7 +102,6 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Use Create-React-App to Setup a Simple React App](https://egghead.io/lessons/react-react-fundamentals-development-environment-setup)
 - [Why I Love Create React App (React Allicante 2017)](https://www.youtube.com/watch?v=Jn18gZ9jO0U)
 
-
 ## React Scripts Versions
 
 This is not documented yet. More info at [Maintaining a fork of react-scripts as an alternative to ejecting #682](https://github.com/facebookincubator/create-react-app/issues/682)
@@ -113,7 +113,6 @@ This is not documented yet. More info at [Maintaining a fork of react-scripts as
 - [Typescript React Starter](https://github.com/Microsoft/TypeScript-React-Starter) - CRA scripts version maintained by Microsoft's team to start apps with Typescript.
 - [React Scripts Web](https://github.com/raymondsze/create-react-scripts/tree/master/packages/react-scripts-web) - React-scripts built using create-react-scripts, supports workbox(PWA), vendorDll, babelrc and eslintrc.
 - [React Scripts With SSR](https://github.com/joernb/react-scripts-with-ssr) - Adds server-side rendering to create-react-app projects.
-
 
 ## Alternatives
 
@@ -140,14 +139,13 @@ Notable alternatives also include:
 - [dev-toolkit](https://github.com/stoikerty/dev-toolkit) - Development Toolkit for React Veterans.
 - [tarec](https://github.com/geowarin/tarec) - The Awesome React Cli.
 
-
 ## FAQ
 
 ### How to Use Env Config
 
 - [Adding Custom Environment Variables](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-custom-environment-variables)
 
-> Your project can consume variables declared in your environment as if they were declared locally in your JS files. By default you will have NODE_ENV defined for you, and any other environment variables starting with REACT_APP_. These environment variables will be defined for you on process.env. For example, having an environment variable named REACT_APP_SECRET_CODE will be exposed in your JS as process.env.REACT_APP_SECRET_CODE, in addition to process.env.NODE_ENV
+> Your project can consume variables declared in your environment as if they were declared locally in your JS files. By default you will have `NODE_ENV` defined for you, and any other environment variables starting with `REACT_APP_`. These environment variables will be defined for you on process.env. For example, having an environment variable named `REACT_APP_SECRET_CODE` will be exposed in your JS as `process.env.REACT_APP_SECRET_CODE`, in addition to `process.env.NODE_ENV`
 
 - [Adding Development Environment Variables In `.env`](https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#adding-development-environment-variables-in-env)
 
@@ -168,28 +166,28 @@ There is the Pull Request [#1344](https://github.com/facebookincubator/create-re
 
 Read different `.env` configs according to current command (start / test / build).
 
-What .env* files are used?
+What `.env*` files are used?
 
-* `.env` - Default
-* `.env.development`, `.env.test`, `.env.production` - Environment-specific settings.
-* `.env.local` - Local overrides. This file is loaded for all environments except test.
-* `.env.development.local`, `.env.test.local`, `.env.production.local` - Local overrides of environment-specific settings.
+- `.env` - Default
+- `.env.development`, `.env.test`, `.env.production` - Environment-specific settings.
+- `.env.local` - Local overrides. This file is loaded for all environments except test.
+- `.env.development.local`, `.env.test.local`, `.env.production.local` - Local overrides of environment-specific settings.
 
 Files priority (file is skipped if does not exist):
 
-* npm test - `.env.test.local`, `env.test`, `.env.local`, `.env`
-* npm run build - `.env.production.local`, `env.production`, `.env.local`, `.env`
-* npm start - `.env.development.local`, `env.development`, `.env.local`, `.env`
+- npm test - `.env.test.local`, `env.test`, `.env.local`, `.env`
+- npm run build - `.env.production.local`, `env.production`, `.env.local`, `.env`
+- npm start - `.env.development.local`, `env.development`, `.env.local`, `.env`
 
 Priority from left to right.
 
 By default (if custom config does not exist) read env variables from .env file.
 
-### Advanced Configuration 
+### Advanced Configuration
 
 <img src="https://camo.githubusercontent.com/59e1be59d191ad29983a91b039f0e9089918dfb4/68747470733a2f2f7075752e73682f745866456c2f336361346536636264652e706e67" alt="Create React App Advanced Configuration"/>
 
-These are environment variables. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms or *.env* config.
+These are environment variables. Use [cross-env](https://github.com/kentcdodds/cross-env) to set environment variables across platforms or _.env_ config.
 
 ```json
 "scripts": {
@@ -208,7 +206,7 @@ BROWSER=none
 Original issue - [Lazy load (chunking) feature? #925](https://github.com/facebookincubator/create-react-app/issues/925)
 
 > You can use require.ensure() because we use webpack under the hood.
-When we switch to webpack 2, you can use System.import instead.
+> When we switch to webpack 2, you can use System.import instead.
 
 ### How to Setup Root Dir for Require
 
@@ -232,25 +230,23 @@ NODE_PATH=src/scripts
 
 ## HMR (Hot Module Replacement)
 
-By default HMR works only for CSS modules. If you want to use for components add these lines to *index.js*:
+By default HMR works only for CSS modules. If you want to use for components add these lines to _index.js_:
 
 > NOTE: This will work but not preserve the components state, but redux / mobx / whatever state managers will be preserved
 
 ```js
 // App - root component
-import App from './App';
+import App from "./App";
 
 const render = Root => {
-  ReactDOM.render(<Root />,
-    document.getElementById('root')
-  );
-}
+  ReactDOM.render(<Root />, document.getElementById("root"));
+};
 
 render(App);
 
 if (module.hot) {
-  module.hot.accept('./App', () => {
-    var NextApp = require('./App').default;
+  module.hot.accept("./App", () => {
+    var NextApp = require("./App").default;
     render(NextApp);
   });
 }
@@ -262,7 +258,7 @@ Create React App [doesn’t support decorator syntax](https://github.com/faceboo
 
 There are PR [Adding support for custom babel configuration #1357](https://github.com/facebookincubator/create-react-app/pull/1357). If PR is merged then these features will be available:
 
-- [Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators )
+- [Decorators](https://www.npmjs.com/package/babel-plugin-transform-decorators)
 - Features from [stage-0 preset](https://babeljs.io/docs/plugins/preset-stage-0/)
 - Any new babel features and presets
 
@@ -279,13 +275,12 @@ PR is closed but
 
 > - [Imagine the horror of building / maintaining an app that relies on dead syntax features five years from now.](https://twitter.com/dan_abramov/status/818627079306694658)
 
-
 So we do not recommend to use babel presets besides the [babel-preset-react-app](https://github.com/facebookincubator/create-react-app/tree/master/packages/babel-preset-react-app) that is already configured at Create React App.
 
 ### How to Change Webpack Entry Point and Output Dir?
 
 There is the issue - [Customize build folder #1354](https://github.com/facebookincubator/create-react-app/issues/1354).
-This is feature is very useful along with entry point customizing and I have left  [comment](https://github.com/facebookincubator/create-react-app/issues/1354#issuecomment-275647959) about this.
+This is feature is very useful along with entry point customizing and I have left [comment](https://github.com/facebookincubator/create-react-app/issues/1354#issuecomment-275647959) about this.
 
 But according to this Pull Request [Fix- react-scripts build doesn't allow for specified path #1362](https://github.com/facebookincubator/create-react-app/pull/1362#issuecomment-271284738) we should not expect such customizations in near future.
 
@@ -298,6 +293,7 @@ There are some hacks how to change webpack config but note that it is officially
 Example is [here](https://gist.github.com/int128/e0cdec598c5b3db728ff35758abdbafd)
 
 ### How to Change Webpack Config?
+
 ### How to Add Custom Webpack Plugins?
 
 ```json
@@ -308,21 +304,18 @@ Example is [here](https://gist.github.com/int128/e0cdec598c5b3db728ff35758abdbaf
 
 ```js
 // scripts/webpack.js
-const webpack = require('react-scripts/node_modules/webpack');
-const craWebpackConfig = require('react-scripts/config/webpack.config.prod');
-const OfflinePlugin = require('offline-plugin');
+const webpack = require("react-scripts/node_modules/webpack");
+const craWebpackConfig = require("react-scripts/config/webpack.config.prod");
+const OfflinePlugin = require("offline-plugin");
 
 const config = {
   ...craWebpackConfig,
-  plugins: [
-     ...craWebpackConfig.plugins,
-     new OfflinePlugin()
-  ]
+  plugins: [...craWebpackConfig.plugins, new OfflinePlugin()]
 };
 
 webpack(config).run(function(err, stats) {
   if (err !== null) {
-    console.log('done');
+    console.log("done");
   } else {
     console.log(err);
   }
