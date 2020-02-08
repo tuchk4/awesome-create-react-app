@@ -58,6 +58,7 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Heroku: Deploying React With Zero Configuration](https://blog.heroku.com/deploying-react-with-zero-configuration)
 - [Create React App Buildpack](https://github.com/mars/create-react-app-buildpack)
 - [Creare React App - now.sh](https://github.com/xkawi/create-react-app-now)
+- [AWS CodePipeline, S3, and AWS CodeBuild using AWS CDK](https://sbstjn.com/deploy-react-cra-with-cdk-codepipeline-and-codebuild.html)
 
 ## Articles
 
@@ -83,6 +84,7 @@ A collection of awesome things regarding Create React App ecosystem.
 - [Create React App vs Other Starter Projects](http://andrewhfarmer.com/create-react-app/)
 - [An Almost Static Stack](https://medium.com/superhighfives/an-almost-static-stack-6df0a2791319)
 - [Upgrading a create-react-app project to SSR + code splitting](https://medium.com/@andreiduca/upgrading-a-create-react-app-project-to-a-ssr-code-splitting-setup-9da57df2040a)
+- [Serverless pre-rendering with AWS Lambda](https://sbstjn.com/serverless-create-react-app-server-side-rendering-ssr-lamda.html) - ([Available in German](https://superluminar.io/2020/02/07/react-spa-und-server-side-rendering-ssr-mit-aws-lambda-cloudfront-und-dem-cdk/))
 
 
 ## Tweaking Configuration
