@@ -48,7 +48,8 @@ A collection of awesome things regarding Create React App ecosystem.
 - [An Almost Static Stack. CRA + react-snapshot](https://github.com/superhighfives/an-almost-static-stack) - Bridge the gap between static sites and single page apps.
 - [CRA + Redux](https://github.com/tuchk4/craft-redux) - Create React App Template with Redux and Router
 - [Craft Template - MobX + React Router](https://github.com/timarney/cra-mobx-reactrouter) - CRA Template with Mobx and Router
-
+- [Quickstart Redux template](https://github.com/morewings/cra-template-quickstart-redux) - CRA Template with Redux setup, code and test examples, eslint, stylelynt and husky. Supports SCSS/LESS/PostCSS. Testing is done with react-testing-library
+- [NPM library CRA template](https://github.com/morewings/cra-template-npm-library) - CRA Template with rollup configuration to build project as an shareable NPM library. Has code and test examples, eslint, stylelynt and husky. Supports SCSS/LESS/PostCSS.
 ## Deployment
 
 - [Surge VS GitHub Pages: How to Deploy A Create-React-App Project](https://medium.freecodecamp.com/surge-vs-github-pages-deploying-a-create-react-app-project-c0ecbf317089#.7mahr7kyj)
